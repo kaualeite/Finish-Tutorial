@@ -3,7 +3,40 @@ guid: c3d2f466320454d41a0cd54cb138d1ed
 timeCreated: 1523895539
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Enel-Dragon-Ultimate_3
+    21300002: Enel-Dragon-Ultimate_4
+    21300004: Enel-Dragon-Ultimate_5
+    21300006: Enel-Dragon-Ultimate_6
+    21300008: Enel-Dragon-Ultimate_9
+    21300010: Enel-Dragon-Ultimate_11
+    21300012: Enel-Dragon-Ultimate_12
+    21300014: Enel-Dragon-Ultimate_13
+    21300016: Enel-Dragon-Ultimate_14
+    21300018: Enel-Dragon-Ultimate_15
+    21300020: Enel-Dragon-Ultimate_16
+    21300022: Enel-Dragon-Ultimate_17
+    21300024: Enel-Dragon-Ultimate_18
+    21300026: Enel-Dragon-Ultimate_19
+    21300028: Enel-Dragon-Ultimate_20
+    21300030: Enel-Dragon-Ultimate_21
+    21300032: Enel-Dragon-Ultimate_22
+    21300034: Enel-Dragon-Ultimate_23
+    21300036: Enel-Dragon-Ultimate_24
+    21300038: Enel-Dragon-Ultimate_25
+    21300040: Enel-Dragon-Ultimate_26
+    21300042: Enel-Dragon-Ultimate_27
+    21300044: Enel-Dragon-Ultimate_28
+    21300046: Enel-Dragon-Ultimate_29
+    21300048: Enel-Dragon-Ultimate_30
+    21300050: Enel-Dragon-Ultimate_31
+    21300052: Enel-Dragon-Ultimate_32
+    21300054: Enel-Dragon-Ultimate_33
+    21300056: Enel-Dragon-Ultimate_34
+    21300058: Enel-Dragon-Ultimate_35
+    21300060: Enel-Dragon-Ultimate_36
+    21300062: Enel-Dragon-Ultimate_7
+    21300064: Enel-Dragon-Ultimate_0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +73,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +99,481 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_3
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 111
+        width: 39
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 111
+        width: 39
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_5
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 111
+        width: 69
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_6
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 111
+        width: 109
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_9
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 111
+        width: 109
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 111
+        width: 38
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 111
+        width: 39
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 111
+        width: 39
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_14
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 111
+        width: 38
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 111
+        width: 39
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_16
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 111
+        width: 39
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_17
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 111
+        width: 39
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_18
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 111
+        width: 38
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_19
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 111
+        width: 39
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 34
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_21
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 30
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 27
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_23
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 25
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 21
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 17
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_26
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_27
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_28
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_29
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 35
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_30
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 15
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_31
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 17
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_32
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 16
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_33
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 15
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_34
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 17
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_35
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 16
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 28
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_7
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 110
+        width: 109
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Dragon-Ultimate_0
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 110
+        width: 39
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

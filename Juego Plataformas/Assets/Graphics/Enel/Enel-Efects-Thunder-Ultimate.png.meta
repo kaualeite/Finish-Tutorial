@@ -3,7 +3,61 @@ guid: 464f1213f7c87b84e953da433e3f939d
 timeCreated: 1523895514
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Enel-Efects-Thunder-Ultimate_0
+    21300002: Enel-Efects-Thunder-Ultimate_1
+    21300004: Enel-Efects-Thunder-Ultimate_2
+    21300006: Enel-Efects-Thunder-Ultimate_3
+    21300008: Enel-Efects-Thunder-Ultimate_4
+    21300010: Enel-Efects-Thunder-Ultimate_5
+    21300012: Enel-Efects-Thunder-Ultimate_6
+    21300014: Enel-Efects-Thunder-Ultimate_7
+    21300016: Enel-Efects-Thunder-Ultimate_8
+    21300018: Enel-Efects-Thunder-Ultimate_9
+    21300020: Enel-Efects-Thunder-Ultimate_10
+    21300022: Enel-Efects-Thunder-Ultimate_11
+    21300024: Enel-Efects-Thunder-Ultimate_12
+    21300026: Enel-Efects-Thunder-Ultimate_13
+    21300028: Enel-Efects-Thunder-Ultimate_14
+    21300030: Enel-Efects-Thunder-Ultimate_17
+    21300032: Enel-Efects-Thunder-Ultimate_18
+    21300034: Enel-Efects-Thunder-Ultimate_19
+    21300036: Enel-Efects-Thunder-Ultimate_24
+    21300038: Enel-Efects-Thunder-Ultimate_25
+    21300040: Enel-Efects-Thunder-Ultimate_26
+    21300042: Enel-Efects-Thunder-Ultimate_27
+    21300044: Enel-Efects-Thunder-Ultimate_28
+    21300046: Enel-Efects-Thunder-Ultimate_29
+    21300048: Enel-Efects-Thunder-Ultimate_30
+    21300050: Enel-Efects-Thunder-Ultimate_31
+    21300052: Enel-Efects-Thunder-Ultimate_32
+    21300054: Enel-Efects-Thunder-Ultimate_33
+    21300056: Enel-Efects-Thunder-Ultimate_34
+    21300058: Enel-Efects-Thunder-Ultimate_35
+    21300060: Enel-Efects-Thunder-Ultimate_36
+    21300062: Enel-Efects-Thunder-Ultimate_37
+    21300064: Enel-Efects-Thunder-Ultimate_38
+    21300066: Enel-Efects-Thunder-Ultimate_39
+    21300068: Enel-Efects-Thunder-Ultimate_63
+    21300070: Enel-Efects-Thunder-Ultimate_73
+    21300072: Enel-Efects-Thunder-Ultimate_74
+    21300074: Enel-Efects-Thunder-Ultimate_75
+    21300076: Enel-Efects-Thunder-Ultimate_76
+    21300078: Enel-Efects-Thunder-Ultimate_77
+    21300080: Enel-Efects-Thunder-Ultimate_78
+    21300082: Enel-Efects-Thunder-Ultimate_79
+    21300084: Enel-Efects-Thunder-Ultimate_80
+    21300086: Enel-Efects-Thunder-Ultimate_81
+    21300088: Enel-Efects-Thunder-Ultimate_82
+    21300090: Enel-Efects-Thunder-Ultimate_15
+    21300092: Enel-Efects-Thunder-Ultimate_16
+    21300094: Enel-Efects-Thunder-Ultimate_20
+    21300096: Enel-Efects-Thunder-Ultimate_21
+    21300098: Enel-Efects-Thunder-Ultimate_22
+    21300100: Enel-Efects-Thunder-Ultimate_23
+    21300102: Enel-Efects-Thunder-Ultimate_40
+    21300104: Enel-Efects-Thunder-Ultimate_41
+    21300106: Enel-Efects-Thunder-Ultimate_42
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +94,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +120,775 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 390
+        width: 36
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 408
+        width: 32
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 414
+        width: 18
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 421
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 430
+        width: 15
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 439
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 445
+        width: 16
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_7
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 453
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_8
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 434
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_9
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 434
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 439
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_11
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 440
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_12
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 443
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_13
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 441
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_14
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 441
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_17
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 391
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_18
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 445
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_19
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 446
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_24
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 390
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_25
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 409
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_26
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 401
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_27
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 393
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_28
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 390
+        width: 150
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_29
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 391
+        width: 206
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 391
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 336
+        width: 230
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_32
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 336
+        width: 229
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_33
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 336
+        width: 230
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_34
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 335
+        width: 231
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_35
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 282
+        width: 230
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 280
+        width: 229
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_37
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 282
+        width: 230
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 228
+        width: 230
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_39
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 226
+        width: 234
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_63
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 236
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_73
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 159
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_74
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 125
+        width: 44
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_75
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 77
+        width: 46
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_76
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 21
+        width: 43
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_77
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 10
+        width: 55
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_78
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 7
+        width: 61
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_79
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 7
+        width: 61
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_80
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 6
+        width: 63
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_81
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 16
+        width: 47
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_82
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 21
+        width: 29
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_15
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 443
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_16
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 231
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_20
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 230
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_21
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 232
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_22
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 234
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_23
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 232
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_40
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 21
+        width: 6
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_41
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 21
+        width: 5
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Efects-Thunder-Ultimate_42
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 459
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

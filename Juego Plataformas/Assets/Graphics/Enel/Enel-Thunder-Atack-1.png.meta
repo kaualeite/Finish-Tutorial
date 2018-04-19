@@ -3,7 +3,38 @@ guid: 095cba55580c1e54b8e1e71d9082bd30
 timeCreated: 1523895497
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Enel-Thunder-Atack-1_0
+    21300002: Enel-Thunder-Atack-1_1
+    21300004: Enel-Thunder-Atack-1_2
+    21300006: Enel-Thunder-Atack-1_3
+    21300008: Enel-Thunder-Atack-1_4
+    21300010: Enel-Thunder-Atack-1_5
+    21300012: Enel-Thunder-Atack-1_6
+    21300014: Enel-Thunder-Atack-1_7
+    21300016: Enel-Thunder-Atack-1_8
+    21300018: Enel-Thunder-Atack-1_9
+    21300020: Enel-Thunder-Atack-1_10
+    21300022: Enel-Thunder-Atack-1_11
+    21300024: Enel-Thunder-Atack-1_12
+    21300026: Enel-Thunder-Atack-1_13
+    21300028: Enel-Thunder-Atack-1_14
+    21300030: Enel-Thunder-Atack-1_15
+    21300032: Enel-Thunder-Atack-1_16
+    21300034: Enel-Thunder-Atack-1_17
+    21300036: Enel-Thunder-Atack-1_18
+    21300038: Enel-Thunder-Atack-1_19
+    21300040: Enel-Thunder-Atack-1_20
+    21300042: Enel-Thunder-Atack-1_21
+    21300044: Enel-Thunder-Atack-1_22
+    21300046: Enel-Thunder-Atack-1_23
+    21300048: Enel-Thunder-Atack-1_24
+    21300050: Enel-Thunder-Atack-1_25
+    21300052: Enel-Thunder-Atack-1_26
+    21300054: Enel-Thunder-Atack-1_27
+    21300056: Enel-Thunder-Atack-1_28
+    21300058: Enel-Thunder-Atack-1_29
+    21300060: Enel-Thunder-Atack-1_30
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +71,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +97,453 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 237
+        width: 61
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 237
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 237
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 237
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 237
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_5
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 237
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_6
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 234
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_8
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 251
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_9
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 251
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_10
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 251
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_11
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 251
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_12
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 234
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_13
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 234
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_14
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 234
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_15
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 234
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_16
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 235
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 235
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 123
+        width: 35
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 82
+        width: 36
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 58
+        width: 38
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 9
+        width: 63
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_22
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 14
+        width: 67
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 10
+        width: 71
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_24
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 15
+        width: 54
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_25
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 17
+        width: 59
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_26
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 20
+        width: 66
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_27
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 24
+        width: 70
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_28
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 27
+        width: 32
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_29
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 27
+        width: 14
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Atack-1_30
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 27
+        width: 13
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

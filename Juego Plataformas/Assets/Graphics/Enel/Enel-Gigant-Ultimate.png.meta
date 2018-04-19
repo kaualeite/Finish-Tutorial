@@ -3,7 +3,41 @@ guid: e72bb387086fe7b4ea88a18931e9c211
 timeCreated: 1523895544
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Enel-Gigant-Ultimate_0
+    21300002: Enel-Gigant-Ultimate_1
+    21300004: Enel-Gigant-Ultimate_2
+    21300006: Enel-Gigant-Ultimate_3
+    21300008: Enel-Gigant-Ultimate_4
+    21300010: Enel-Gigant-Ultimate_5
+    21300012: Enel-Gigant-Ultimate_6
+    21300014: Enel-Gigant-Ultimate_7
+    21300016: Enel-Gigant-Ultimate_8
+    21300018: Enel-Gigant-Ultimate_9
+    21300020: Enel-Gigant-Ultimate_10
+    21300022: Enel-Gigant-Ultimate_11
+    21300024: Enel-Gigant-Ultimate_12
+    21300026: Enel-Gigant-Ultimate_13
+    21300028: Enel-Gigant-Ultimate_14
+    21300030: Enel-Gigant-Ultimate_15
+    21300032: Enel-Gigant-Ultimate_16
+    21300034: Enel-Gigant-Ultimate_17
+    21300036: Enel-Gigant-Ultimate_18
+    21300038: Enel-Gigant-Ultimate_19
+    21300040: Enel-Gigant-Ultimate_20
+    21300042: Enel-Gigant-Ultimate_21
+    21300044: Enel-Gigant-Ultimate_22
+    21300046: Enel-Gigant-Ultimate_23
+    21300048: Enel-Gigant-Ultimate_24
+    21300050: Enel-Gigant-Ultimate_25
+    21300052: Enel-Gigant-Ultimate_29
+    21300054: Enel-Gigant-Ultimate_32
+    21300056: Enel-Gigant-Ultimate_33
+    21300058: Enel-Gigant-Ultimate_34
+    21300060: Enel-Gigant-Ultimate_35
+    21300062: Enel-Gigant-Ultimate_36
+    21300064: Enel-Gigant-Ultimate_26
+    21300066: Enel-Gigant-Ultimate_27
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +74,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +100,495 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 225
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 225
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 225
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 225
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_4
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 226
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_5
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 225
+        width: 101
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_6
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 225
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_7
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 225
+        width: 84
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_8
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 225
+        width: 79
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 71
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 114
+        width: 79
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 60
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 72
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_13
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 71
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_14
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 114
+        width: 79
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_15
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 60
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 31
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_17
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 60
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_18
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 114
+        width: 84
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 71
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_20
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 25
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_21
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 114
+        width: 129
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_22
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 36
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_23
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 12
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_24
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 12
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_25
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 114
+        width: 129
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_29
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 13
+        width: 91
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_32
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 41
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_33
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 41
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_34
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 41
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_35
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 41
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_36
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 42
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_26
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 12
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Gigant-Ultimate_27
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 114
+        width: 133
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

@@ -3,7 +3,22 @@ guid: 4e459b1daaec6314ab4e579766aac965
 timeCreated: 1523895515
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Enel-Normal-Atack-3_0
+    21300002: Enel-Normal-Atack-3_1
+    21300004: Enel-Normal-Atack-3_2
+    21300006: Enel-Normal-Atack-3_3
+    21300008: Enel-Normal-Atack-3_4
+    21300010: Enel-Normal-Atack-3_5
+    21300012: Enel-Normal-Atack-3_6
+    21300014: Enel-Normal-Atack-3_7
+    21300016: Enel-Normal-Atack-3_8
+    21300018: Enel-Normal-Atack-3_9
+    21300020: Enel-Normal-Atack-3_10
+    21300022: Enel-Normal-Atack-3_11
+    21300024: Enel-Normal-Atack-3_12
+    21300026: Enel-Normal-Atack-3_13
+    21300028: Enel-Normal-Atack-3_14
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +81,229 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 110
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 110
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 110
+        width: 96
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_3
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 110
+        width: 95
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_4
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 110
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_5
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 110
+        width: 85
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_6
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 110
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_7
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 110
+        width: 106
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_8
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 110
+        width: 138
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_9
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 109
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_10
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 109
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 12
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 12
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Normal-Atack-3_14
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 12
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

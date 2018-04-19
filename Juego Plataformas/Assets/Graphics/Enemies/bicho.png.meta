@@ -3,7 +3,44 @@ guid: d6ca831c7f66f2e499a424c27461aa81
 timeCreated: 1523909933
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: bicho_0
+    21300002: bicho_1
+    21300004: bicho_2
+    21300006: bicho_3
+    21300008: bicho_4
+    21300010: bicho_5
+    21300012: bicho_6
+    21300014: bicho_7
+    21300016: bicho_8
+    21300018: bicho_9
+    21300020: bicho_10
+    21300022: bicho_11
+    21300024: bicho_12
+    21300026: bicho_13
+    21300028: bicho_14
+    21300030: bicho_15
+    21300032: bicho_16
+    21300034: bicho_17
+    21300036: bicho_31
+    21300038: bicho_32
+    21300040: bicho_33
+    21300042: bicho_34
+    21300044: bicho_35
+    21300046: bicho_36
+    21300048: bicho_37
+    21300050: bicho_38
+    21300052: bicho_39
+    21300054: bicho_40
+    21300056: bicho_41
+    21300058: bicho_42
+    21300060: bicho_43
+    21300062: bicho_44
+    21300064: bicho_45
+    21300066: bicho_46
+    21300068: bicho_47
+    21300070: bicho_48
+    21300072: bicho_49
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +103,537 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: bicho_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 635
+        width: 104
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 635
+        width: 104
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 635
+        width: 104
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_3
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 635
+        width: 104
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 547
+        width: 104
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 547
+        width: 104
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 547
+        width: 104
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 547
+        width: 104
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 449
+        width: 104
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 449
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 449
+        width: 112
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_11
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 449
+        width: 113
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_12
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 449
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_13
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 449
+        width: 113
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_14
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 449
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_15
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 449
+        width: 111
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_16
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 449
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 362
+        width: 112
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 225
+        width: 119
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 225
+        width: 119
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_33
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 225
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_34
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 225
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_35
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 225
+        width: 121
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_36
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 225
+        width: 174
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_37
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 225
+        width: 174
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_38
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 225
+        width: 169
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_39
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 225
+        width: 171
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_40
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 225
+        width: 172
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 104
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_42
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 100
+        width: 110
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_43
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 12
+        width: 112
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_44
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 12
+        width: 112
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_45
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 12
+        width: 109
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_46
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 12
+        width: 105
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_47
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 12
+        width: 104
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_48
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 12
+        width: 104
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bicho_49
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 12
+        width: 104
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

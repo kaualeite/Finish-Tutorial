@@ -3,7 +3,37 @@ guid: 7f0eb1a0e0ad195429dd68039bbcac08
 timeCreated: 1523909931
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: golem02_0
+    21300002: golem02_1
+    21300004: golem02_2
+    21300006: golem02_3
+    21300008: golem02_4
+    21300010: golem02_5
+    21300012: golem02_6
+    21300014: golem02_8
+    21300016: golem02_9
+    21300018: golem02_26
+    21300020: golem02_27
+    21300022: golem02_28
+    21300024: golem02_29
+    21300026: golem02_30
+    21300028: golem02_31
+    21300030: golem02_37
+    21300032: golem02_38
+    21300034: golem02_39
+    21300036: golem02_48
+    21300038: golem02_53
+    21300040: golem02_60
+    21300042: golem02_68
+    21300044: golem02_69
+    21300046: golem02_70
+    21300048: golem02_76
+    21300050: golem02_77
+    21300052: golem02_78
+    21300054: golem02_79
+    21300056: golem02_81
+    21300058: golem02_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +70,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +96,439 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: golem02_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1156
+        width: 110
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1156
+        width: 110
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_2
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1156
+        width: 110
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 971
+        width: 105
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 971
+        width: 112
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 971
+        width: 104
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 971
+        width: 121
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 861
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 698
+        width: 106
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 500
+        width: 128
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 500
+        width: 141
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_28
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 500
+        width: 145
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_29
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 500
+        width: 118
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_30
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 498
+        width: 215
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_31
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 498
+        width: 220
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_37
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 500
+        width: 226
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_38
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 499
+        width: 215
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_39
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 500
+        width: 175
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 316
+        width: 113
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_53
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 400
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_60
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 367
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_68
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 315
+        width: 123
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_69
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 331
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_70
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 316
+        width: 135
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_76
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 28
+        width: 106
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_77
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 28
+        width: 112
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_78
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 28
+        width: 121
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_79
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 28
+        width: 130
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_81
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 28
+        width: 100
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: golem02_7
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 315
+        width: 154
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

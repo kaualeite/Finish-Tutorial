@@ -3,7 +3,31 @@ guid: b390c3e6df10ca34ba95046141dad21d
 timeCreated: 1523895537
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Enel-Thunder-Explosion-1_0
+    21300002: Enel-Thunder-Explosion-1_1
+    21300004: Enel-Thunder-Explosion-1_2
+    21300006: Enel-Thunder-Explosion-1_3
+    21300008: Enel-Thunder-Explosion-1_4
+    21300010: Enel-Thunder-Explosion-1_5
+    21300012: Enel-Thunder-Explosion-1_6
+    21300014: Enel-Thunder-Explosion-1_7
+    21300016: Enel-Thunder-Explosion-1_8
+    21300018: Enel-Thunder-Explosion-1_9
+    21300020: Enel-Thunder-Explosion-1_10
+    21300022: Enel-Thunder-Explosion-1_11
+    21300024: Enel-Thunder-Explosion-1_16
+    21300026: Enel-Thunder-Explosion-1_17
+    21300028: Enel-Thunder-Explosion-1_18
+    21300030: Enel-Thunder-Explosion-1_19
+    21300032: Enel-Thunder-Explosion-1_20
+    21300034: Enel-Thunder-Explosion-1_21
+    21300036: Enel-Thunder-Explosion-1_22
+    21300038: Enel-Thunder-Explosion-1_23
+    21300040: Enel-Thunder-Explosion-1_24
+    21300042: Enel-Thunder-Explosion-1_32
+    21300044: Enel-Thunder-Explosion-1_34
+    21300046: Enel-Thunder-Explosion-1_38
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +90,355 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 81
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 131
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 131
+        width: 82
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 131
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 130
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_5
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 144
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_6
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 177
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 184
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_8
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 129
+        width: 96
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_9
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 128
+        width: 84
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_10
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 128
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_11
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 128
+        width: 80
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 15
+        width: 80
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_17
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 15
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 15
+        width: 80
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_19
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 15
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_20
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 15
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_21
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 11
+        width: 101
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_22
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 17
+        width: 93
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_23
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 18
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 14
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_32
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 27
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_34
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 22
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enel-Thunder-Explosion-1_38
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 22
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
