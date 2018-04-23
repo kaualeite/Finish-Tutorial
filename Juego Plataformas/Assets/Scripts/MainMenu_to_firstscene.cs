@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu_to_firstscene : MonoBehaviour {
+
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +18,7 @@ public class MainMenu_to_firstscene : MonoBehaviour {
 
 	public void Game(){
 
-	
+		SceneManager.LoadScene("Principal");
 
 	}
 
