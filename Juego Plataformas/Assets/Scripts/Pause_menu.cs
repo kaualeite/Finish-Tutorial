@@ -39,10 +39,10 @@ public class Pause_menu : MonoBehaviour {
 	}
 		
 	public void Resume(){
-		if(paused){
+		
 		paused = !paused;
-		pause.SetActive (false);
-		}
+
+
 	}
 
 	public void Quit(){
