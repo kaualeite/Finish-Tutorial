@@ -18,7 +18,7 @@ public class MainMenu_to_firstscene : MonoBehaviour {
 
 	public void Game(){
 
-		SceneManager.LoadScene(0);
+		SceneManager.LoadScene("Principal");
 
 	}
 
