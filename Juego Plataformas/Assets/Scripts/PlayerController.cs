@@ -13,6 +13,9 @@ public class PlayerController : MonoBehaviour{
     // Variable para poner fuerza al saltar
     public float jumpPower = 6.5f;
 
+	public int health;
+	public int maxhealth = 100;
+
     private Rigidbody2D rb2d;
     private Animator anim;
     private SpriteRenderer spr;
@@ -28,6 +31,7 @@ public class PlayerController : MonoBehaviour{
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spr = GetComponent<SpriteRenderer>();
+		health = maxhealth;
     }
 
     // Update is called once per frame
@@ -53,6 +57,17 @@ public class PlayerController : MonoBehaviour{
                 doubleJump = false;
             }
         }
+		if (health > maxhealth) {
+
+			health = maxhealth;
+
+		}
+
+		if (health <= 0) {
+
+			Die ();
+
+		}
     }
 
     void FixedUpdate(){
@@ -117,7 +132,7 @@ public class PlayerController : MonoBehaviour{
         movement = false;
         Invoke("EnableMovement", 1f);
 
-        Die();
+        Hit();
 
         Invoke("Normal", 0.2f);
         
@@ -131,9 +146,14 @@ public class PlayerController : MonoBehaviour{
     void Normal() {
         UpdateState("Player_Idle");
     }
+	void Hit(){
+		health = health - 20;
+		UpdateState("Player_Damage");
 
+	}
     void Die() {
-        UpdateState("Player_Damage");
+		transform.position = new Vector3(-1, 0, 0);
+		health = maxhealth;
     }
 
     // Cambio de Sprites
