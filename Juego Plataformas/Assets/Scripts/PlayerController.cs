@@ -16,6 +16,12 @@ public class PlayerController : MonoBehaviour{
 	public int health;
 	public int maxhealth = 100;
 
+
+	public float Savepointx = 0;
+	public float savepointy = 0;
+
+	public float keyNumber = 0;
+
     private Rigidbody2D rb2d;
     private Animator anim;
     private SpriteRenderer spr;
@@ -111,7 +117,7 @@ public class PlayerController : MonoBehaviour{
     }
 
     void OnBecameInvisible(){
-        transform.position = new Vector3(-1, 0, 0);
+		transform.position = new Vector3(Savepointx, savepointy, 0);
     }
 
     // Salto al matar un enemigo
@@ -152,7 +158,7 @@ public class PlayerController : MonoBehaviour{
 
 	}
     void Die() {
-		transform.position = new Vector3(-1, 0, 0);
+		transform.position = new Vector3(Savepointx, savepointy, 0);
 		health = maxhealth;
     }
 

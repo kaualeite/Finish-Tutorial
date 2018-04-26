@@ -6,6 +6,7 @@ public class CheckGround : MonoBehaviour {
 
 	private PlayerController player;
     private Rigidbody2D rb2d;
+	public Sprite sprite;
 
 	// Use this for initialization
 	void Start () {
@@ -33,7 +34,22 @@ public class CheckGround : MonoBehaviour {
             player.grounded = true;
         }
 
+		if (col.gameObject.tag == "Key") {
+			player.keyNumber = player.keyNumber + 1;
+
+			player.grounded = true;
+		}
     }
+
+	void OnTriggerEnter2D ( Collider2D otro) {
+		if (otro.gameObject.tag == "Save") {
+			var positions = GameObject.Find(otro.collider.gameObject.name).transform.position;
+			player.Savepointx = positions.x;
+			player.savepointy = positions.y;
+
+			player.grounded = true;
+		}
+	}
 
     void OnCollisionExit2D(Collision2D col){
 		if(col.gameObject.tag == "Ground"){
