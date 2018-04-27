@@ -75,10 +75,7 @@ public class CheckGround : MonoBehaviour {
         {
             if (player.keyNumber > 0)
             {
-				
 
-                //problems
-             //   var posobject = doorkey.x;
 				player.transform.position = new Vector3(okey.positionx,okey.positiony, 0);
                 player.keyNumber = player.keyNumber - 1;
                 player.grounded = true;

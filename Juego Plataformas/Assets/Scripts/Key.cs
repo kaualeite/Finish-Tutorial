@@ -12,8 +12,8 @@ public class Key : MonoBehaviour {
 		target.parent = null;
 		start = transform.position;
 		end = target.position;
-		positionx = end.x;
-		positiony = end.y;
+		positionx = start.x;
+		positiony = start.y;
 	}
 
 	// Update is called once per frame
