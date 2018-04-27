@@ -8,7 +8,8 @@ public class CheckGround : MonoBehaviour {
     private Rigidbody2D rb2d;
 	public Sprite sprite;
     private GameObject key;
-    private keydoor doorkey;
+	private Key okey;
+	private bool inmap;
 	// Use this for initialization
 	void Start () {
 		player = GetComponentInParent<PlayerController>();
@@ -59,7 +60,7 @@ public class CheckGround : MonoBehaviour {
 
     }
 
-        public bool characterInQuicksand;
+
         void OnTriggerEnter2D(Collider2D other)
         {
 
@@ -74,10 +75,11 @@ public class CheckGround : MonoBehaviour {
         {
             if (player.keyNumber > 0)
             {
-                var posplayer = GameObject.Find("Player").transform.position;
+				
+
                 //problems
              //   var posobject = doorkey.x;
-              //  player.transform.position = new Vector3(posplayer.x + posobject.x, posplayer.y + posobject.y, 0);
+				player.transform.position = new Vector3(okey.positionx,okey.positiony, 0);
                 player.keyNumber = player.keyNumber - 1;
                 player.grounded = true;
             }
@@ -95,6 +97,20 @@ public class CheckGround : MonoBehaviour {
 
             player.grounded = true;
         }
+
+		if (other.gameObject.tag == "Checker") {
+			inmap = false;
+			if (!inmap) {
+				player.health = 0;
+			
+			}
+
+
+		} else {
+			
+			inmap = true;
+		}
+
     }
     
 }

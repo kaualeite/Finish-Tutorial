@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class keydoor : MonoBehaviour {
-
+public class Keydoor : MonoBehaviour {
+	public Transform target;
 	// Use this for initialization
 	void Start () {
 		
