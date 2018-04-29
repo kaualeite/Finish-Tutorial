@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour{
     public bool grounded;
     // Variable para poner fuerza al saltar
     public float jumpPower = 6.5f;
-
+    // Variables para la vida
 	public int health;
 	public int maxhealth = 100;
 
@@ -63,16 +63,13 @@ public class PlayerController : MonoBehaviour{
                 doubleJump = false;
             }
         }
+
 		if (health > maxhealth) {
-
 			health = maxhealth;
-
 		}
 
 		if (health <= 0) {
-
 			Die ();
-
 		}
     }
 
@@ -116,8 +113,6 @@ public class PlayerController : MonoBehaviour{
         Debug.Log(rb2d.velocity.x);
     }
 
-   
-
     // Salto al matar un enemigo
     public void EnemyJump() {
         jump = true;
@@ -147,6 +142,7 @@ public class PlayerController : MonoBehaviour{
         movement = true;
     }
 
+    // Distintos Estados
     void Normal() {
         UpdateState("Player_Idle");
     }
