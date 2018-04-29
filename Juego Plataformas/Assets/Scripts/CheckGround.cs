@@ -10,6 +10,7 @@ public class CheckGround : MonoBehaviour {
     private GameObject key;
 	private Key okey;
 	private bool inmap;
+
 	// Use this for initialization
 	void Start () {
 		player = GetComponentInParent<PlayerController>();
@@ -45,14 +46,12 @@ public class CheckGround : MonoBehaviour {
        
     }
 
-
-
-    void OnCollisionExit2D(Collision2D col){
+    void OnCollisionExit2D(Collision2D col) {
 		if(col.gameObject.tag == "Ground"){
 			player.grounded = false;
 		}
 
-        if (col.gameObject.tag == "Platform"){
+        if (col.gameObject.tag == "Platform") {
             player.transform.parent = null;
             player.grounded = false;
         }
@@ -60,34 +59,27 @@ public class CheckGround : MonoBehaviour {
 
     }
 
+    void OnTriggerEnter2D(Collider2D other) {
 
-        void OnTriggerEnter2D(Collider2D other)
-        {
-
-        if (other.gameObject.tag == "Key")
-        {
+        if (other.gameObject.tag == "Key") {
 
             player.keyNumber = player.keyNumber + 1;
             Destroy(GameObject.Find(other.gameObject.name));
             player.grounded = true;
         }
-        if (other.gameObject.tag == "KeyDoor")
-        {
-            if (player.keyNumber > 0)
-            {
+        if (other.gameObject.tag == "KeyDoor") {
+            if (player.keyNumber > 0){
 
 				player.transform.position = new Vector3(okey.positionx,okey.positiony, 0);
                 player.keyNumber = player.keyNumber - 1;
                 player.grounded = true;
-            }
-            else{
+            }else {
 
                 
 
             }
         }
-        if (other.gameObject.tag == "Save")
-        {
+        if (other.gameObject.tag == "Save") {
             var positions = GameObject.Find(other.gameObject.name).transform.position;
             player.Savepointx = positions.x;
             player.savepointy = positions.y;
@@ -104,7 +96,6 @@ public class CheckGround : MonoBehaviour {
 
 
 		} else {
-			
 			inmap = true;
 		}
 
