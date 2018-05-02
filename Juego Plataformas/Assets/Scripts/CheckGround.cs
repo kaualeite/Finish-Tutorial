@@ -5,6 +5,7 @@ using UnityEngine;
 public class CheckGround : MonoBehaviour {
 
 	private PlayerController player;
+	private ExportFile export;
     private Rigidbody2D rb2d;
 	public Sprite sprite;
     private GameObject key;
@@ -68,22 +69,25 @@ public class CheckGround : MonoBehaviour {
             player.grounded = true;
         }
         if (other.gameObject.tag == "KeyDoor") {
-            if (player.keyNumber > 0){
+			
 
-				player.transform.position = new Vector3(okey.positionx,okey.positiony, 0);
+            if (player.keyNumber > 0){
+				
+				player.transform.position = new Vector3(okey.end.x,okey.end.y, 0);
                 player.keyNumber = player.keyNumber - 1;
                 player.grounded = true;
             }else {
-
+				//else elsoso
                 
 
             }
         }
+
         if (other.gameObject.tag == "Save") {
             var positions = GameObject.Find(other.gameObject.name).transform.position;
             player.Savepointx = positions.x;
             player.savepointy = positions.y;
-
+			export.Start();
             player.grounded = true;
         }
 
