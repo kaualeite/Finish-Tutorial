@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour{
 	public int health;
 	public int maxhealth = 100;
 
+	public float porterx = 0;
+	public float portery = 0;
+
 
 	public float Savepointx = 0;
 	public float savepointy = 0;
@@ -155,6 +158,10 @@ public class PlayerController : MonoBehaviour{
 		transform.position = new Vector3(Savepointx, savepointy, 0);
 		health = maxhealth;
     }
+	public void Playerusekeydoor() {
+		transform.position = new Vector3(porterx, portery, 0);
+		keyNumber = keyNumber - 1;
+	}
 
     // Cambio de Sprites
     public void UpdateState(string state = null) {
