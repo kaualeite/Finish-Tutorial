@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Key : MonoBehaviour
 {
-    private PlayerController player;
+    public PlayerController player;
     public GameObject door;
     public Transform targets;
     // Use this for initialization
@@ -25,7 +25,7 @@ public class Key : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-		if (other.gameObject.tag == "Player")
+		if (other.gameObject.tag == "KeyDoor")
         {
 
            

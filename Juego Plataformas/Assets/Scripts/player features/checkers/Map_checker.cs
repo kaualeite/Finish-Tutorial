@@ -13,7 +13,7 @@ public class Map_checker : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.gameObject.tag == "Player") {
+		if (other.gameObject.tag == "Checker") {
 			inmap = false;
 			if (inmap == false) {
 				player.health = 0;

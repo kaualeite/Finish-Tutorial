@@ -32,12 +32,11 @@ public class Savepoint : MonoBehaviour {
 
 public void Extract()
     {
-        var fileName = "Nanu.txt";
+        var fileName = "Save.txt";
         player = GetComponentInParent<PlayerController>();
         if (File.Exists(fileName))
         {
-            Debug.Log(fileName + " already exists.");
-            return;
+                File.Delete(fileName);
         }
         var sr = File.CreateText(fileName);
 
