@@ -21,11 +21,10 @@ public class Key : MonoBehaviour
         positiony = end.y;
 
     }
-    // Update is called once per frame
 
     void OnTriggerEnter2D(Collider2D other)
     {
-		if (other.gameObject.tag == "KeyDoor")
+		if (other.gameObject.tag == "Player")
         {
 
            
