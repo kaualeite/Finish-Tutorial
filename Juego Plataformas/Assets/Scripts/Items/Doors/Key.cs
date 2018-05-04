@@ -25,7 +25,7 @@ public class Key : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "KeyDoor")
+		if (other.gameObject.tag == "Player")
         {
 
            

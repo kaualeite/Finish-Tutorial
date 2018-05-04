@@ -19,13 +19,13 @@ public class Savepoint : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        
-            var positions = GameObject.Find(other.gameObject.name).transform.position;
-            player.Savepointx = positions.x;
-            player.savepointy = positions.y;
-            Extract();
-            player.grounded = true;
-
+		if (other.gameObject.tag == "Save") {
+			var positions = GameObject.Find (other.gameObject.name).transform.position;
+			player.Savepointx = positions.x;
+			player.savepointy = positions.y;
+			Extract ();
+			player.grounded = true;
+		}
         
 
     }

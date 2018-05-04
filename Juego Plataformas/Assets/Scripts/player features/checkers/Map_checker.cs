@@ -12,19 +12,16 @@ public class Map_checker : MonoBehaviour {
     }
 
     void OnTriggerEnter2D(Collider2D other)
-    {
+	{
+		if (other.gameObject.tag == "Player") {
+			inmap = false;
+			if (inmap == false) {
+				player.health = 0;
 
-        inmap = false;
-        if (inmap == false)
-        {
-            player.health = 0;
-
-        }
-
-        else
-        {
-            inmap = true;
-        }
-    }
+			} else {
+				inmap = true;
+			}
+		}
+	}
        
 }
