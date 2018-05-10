@@ -134,7 +134,7 @@ public class PlayerController : MonoBehaviour{
         movement = false;
         Invoke("EnableMovement", 1f);
 
-        Hit();
+        Hit(20);
 
         Invoke("Normal", 0.2f);
         
@@ -149,8 +149,8 @@ public class PlayerController : MonoBehaviour{
     void Normal() {
         UpdateState("Player_Idle");
     }
-	void Hit(){
-		health = health - 20;
+	public void Hit(int damage){
+		health = health - damage;
 		UpdateState("Player_Damage");
 
 	}
