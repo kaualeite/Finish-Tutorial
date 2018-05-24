@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bola_nieve : MonoBehaviour {
-
-
+public class BolaNieve : MonoBehaviour 
+{	
     public PlayerController player;
+
 	// Use this for initialization
-	void Start () {
-        player = GetComponentInParent<PlayerController>();
-        
+	void Start () 
+	{
+        player = GetComponentInParent<PlayerController>();    
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		
 	}
 
@@ -25,6 +26,5 @@ public class bola_nieve : MonoBehaviour {
             Destroy(GameObject.Find(other.gameObject.name));
             player.grounded = true;
         }
-
     }
 }
