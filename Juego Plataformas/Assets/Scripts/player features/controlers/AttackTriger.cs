@@ -7,7 +7,10 @@ public class AttackTriger : MonoBehaviour {
     public int dmg = 20;
 
     void OnTriggerEnter2D(Collider2D col) {
-        if(col.isTrigger != true && col.CompareTag("Bue_Enemy")) {
-        }
+        Debug.Log(col.name);
+        if (/*col.isTrigger != true && */col.CompareTag("Blue_Enemy")) {
+            Debug.LogError(col.name);
+            Destroy(col.gameObject);
+        } 
     }
 }

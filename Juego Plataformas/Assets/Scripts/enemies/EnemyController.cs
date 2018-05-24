@@ -45,14 +45,12 @@ public class EnemyController : MonoBehaviour {
 
             float yOffSet = 0.14f;
             if(transform.position.y + yOffSet < col.transform.position.y) {
+                Debug.LogError(col.name);
                 col.SendMessage("EnemyJump");
                 Destroy(gameObject);
             } else {
                 col.SendMessage("EnemyKnockBack", transform.position.x);
             }
         }
-
-
-
     }
 }
