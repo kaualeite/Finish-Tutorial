@@ -19,7 +19,7 @@ public class PlayerAttack : MonoBehaviour {
     }
 
     void Update() {
-        if(Input.GetKeyDown("k") && !attacking) {
+        if(Input.GetKeyDown("z") && !attacking) {
             attacking = true;
             attackTimer = attackCd;
 

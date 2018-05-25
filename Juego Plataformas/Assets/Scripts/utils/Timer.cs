@@ -14,7 +14,7 @@ public class Timer : MonoBehaviour {
 		timeToDestroy -= Time.deltaTime;
 		if (timeToDestroy <= 0) {
 
-			Destroy (GameObject);
+			//Destroy (GameObject);
 		}
 	}
 }
