@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Canon : MonoBehaviour {
-
+	public float positionspwnx;
 	// Use this for initialization
 	void Start () {
 		
