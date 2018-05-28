@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlueEnemyAttack : MonoBehaviour {
-
+public class BugAttackTrigger : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D col)
     {
