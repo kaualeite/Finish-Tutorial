@@ -22,7 +22,12 @@ public class CheckGround : MonoBehaviour {
             player.transform.parent = col.transform;
             player.grounded = true;
         }
-        
+        if (col.gameObject.tag == "canon")
+        {
+            
+         
+            player.grounded = true;
+        }
     }
 
     void OnCollisionStay2D(Collision2D col)
@@ -36,7 +41,12 @@ public class CheckGround : MonoBehaviour {
             player.grounded = true;
         }
 
-		
+        if (col.gameObject.tag == "canon")
+        {
+
+
+            player.grounded = true;
+        }
      
        
     }
@@ -51,7 +61,12 @@ public class CheckGround : MonoBehaviour {
             player.grounded = false;
         }
        
+        if (col.gameObject.tag == "canon")
+        {
 
+
+            player.grounded = true;
+        }
     }
 
 

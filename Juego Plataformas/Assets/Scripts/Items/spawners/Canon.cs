@@ -11,17 +11,18 @@ public class Canon : MonoBehaviour {
     public float timeToDestroy;
     public float firstTime;
     private GameObject bulletSpawned;
+    private Rigidbody2D rb2d;
     // Use this for initialization
     void Start () {
        
-        posCanon = (GameObject.Find(this.gameObject.name)).transform.position;
+        rb2d = GetComponent<Rigidbody2D>();
         Debug.Log(posCanon);
         firstTime = timeToDestroy;
             }
 	
 	// Update is called once per frame
 	void Update () {
-        
+        posCanon = (GameObject.Find(this.gameObject.name)).transform.position;
         timeToDestroy -= Time.deltaTime;
         if (timeToDestroy <= 0)
         {
@@ -30,4 +31,28 @@ public class Canon : MonoBehaviour {
 
         }
     }
+
+        
+
+        void OnCollisionEnter2D(Collision2D col)
+        {
+            if (col.gameObject.tag == "Plataform")
+            {
+                
+                (GameObject.Find(this.gameObject.name)).transform.parent = col.transform;
+                
+            }
+
+        }
+    void OnCollisionStay2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Plataform")
+        {
+            
+            (GameObject.Find(this.gameObject.name)).transform.parent = col.transform;
+
+        }
+
+    }
+
 }
