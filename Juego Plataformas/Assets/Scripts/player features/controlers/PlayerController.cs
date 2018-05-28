@@ -121,7 +121,12 @@ public class PlayerController : MonoBehaviour{
     public void EnemyJump() {
         jump = true;
     }
+    public void PlayerIsPushedByGreenPower(Vector2 vector, float push)
+    {
+        vector.Normalize();
+        rb2d.AddForce(new Vector2(vector.x * push, vector.y * push));
 
+    }
     // Deteccion de daño al colisionar con un enemigo
     public void EnemyKnockBack(float enemyPosX) {
         jump = true;
