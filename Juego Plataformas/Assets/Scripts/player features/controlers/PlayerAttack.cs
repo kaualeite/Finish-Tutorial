@@ -34,6 +34,6 @@ public class PlayerAttack : MonoBehaviour {
                 attackTrigger.enabled = false;
             }
         }
-        anim.SetBool("Attacking", attacking);   
+        anim.SetBool("Attacking", attacking);
     }
 }
