@@ -29,9 +29,9 @@ public class PlayerController : MonoBehaviour{
     private Animator anim;
     private SpriteRenderer spr;
     // Comprobacion de si salta o no
-    private bool jump;
+    public bool jump;
     // Salto doble
-    private bool doubleJump;
+    public bool doubleJump;
     // Control de movimiento
     private bool movement = true;
 

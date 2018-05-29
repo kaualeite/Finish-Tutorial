@@ -9,14 +9,13 @@ public class Canon : MonoBehaviour {
     public GameObject canon;
     public GameObject bullet;
     public float timeToDestroy;
-    public float firstTime;
+    private float firstTime;
     private GameObject bulletSpawned;
     private Rigidbody2D rb2d;
     // Use this for initialization
     void Start () {
        
         rb2d = GetComponent<Rigidbody2D>();
-        Debug.Log(posCanon);
         firstTime = timeToDestroy;
             }
 	
@@ -49,6 +48,16 @@ public class Canon : MonoBehaviour {
         if (col.gameObject.tag == "Plataform")
         {
             
+            (GameObject.Find(this.gameObject.name)).transform.parent = col.transform;
+
+        }
+
+    }
+    void OnCollisionExit2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Plataform")
+        {
+
             (GameObject.Find(this.gameObject.name)).transform.parent = col.transform;
 
         }
