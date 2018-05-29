@@ -15,6 +15,7 @@ public class BugAttack : MonoBehaviour {
     // Timer
     public float timer;
     private float timerbc;
+
     void Awake()
     {
         anim = gameObject.GetComponent<Animator>();
