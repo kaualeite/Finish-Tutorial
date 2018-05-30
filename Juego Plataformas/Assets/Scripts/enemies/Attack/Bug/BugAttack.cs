@@ -12,15 +12,10 @@ public class BugAttack : MonoBehaviour {
     private float attackTimer = 0;
     private float attackCd = 1.5f;
 
-    // Timer
-    public float timer;
-    private float timerbc;
-
     void Awake()
     {
         anim = gameObject.GetComponent<Animator>();
         attackTrigger.enabled = false;
-        timerbc = timer;
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -29,18 +24,7 @@ public class BugAttack : MonoBehaviour {
         if (col.gameObject.tag == "Player")
         {
             attacking = true;
-
-           /* while(timer != 0)
-            {
-                timer -= 0.20f;
-            }
-            
-            if (timer == 0)
-            {*/
-                //Debug.LogError("TIMER");
-                attackTrigger.enabled = true;
-            //}
-            
+            Invoke("BugTrigger", 0.3f);
             attackTimer = attackCd;
         }
         /*if (attacking)
@@ -50,12 +34,16 @@ public class BugAttack : MonoBehaviour {
         }*/
         anim.SetBool("Attack", attacking);
         attacking = false;
-        timer = timerbc;
     }
 
     private void OnTriggerExit2D(Collider2D col)
     {
             attackTrigger.enabled = false;
             //attacking = false;
+    }
+
+    private void BugTrigger()
+    {
+        attackTrigger.enabled = true;
     }
 }
