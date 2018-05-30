@@ -4,16 +4,39 @@ using UnityEngine;
 
 public class bugHealth : MonoBehaviour {
 
-    public int health;
+    public GameObject bicho;
     private Animator anim;
+    private bool dead;
+    public int health;
+    public int damage;
 
     void Start () {
         anim = gameObject.GetComponent<Animator>();
+        bicho = GameObject.Find("Bicho");
+        dead = false;
     }
 
-    public void die(int damage)
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("PlayerAtack"))
+        {
+            BugHit(damage);
+        }
+    }
+
+    public void BugHit(int damage)
     {
         health = health - damage;
+        if(health == 0)
+        {
+            dead = true;
+            BugDie(dead);
+        }
+    }
 
+    public void BugDie(bool dead)
+    {
+        anim.SetBool("Dead", dead);
+        Destroy(bicho);
     }
 }
