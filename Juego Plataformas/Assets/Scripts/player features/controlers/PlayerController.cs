@@ -169,7 +169,7 @@ public class PlayerController : MonoBehaviour{
 		keyNumber = keyNumber - 1;
 	}
 
-    // Cambio de Sprites
+    // Cambio de Animaciones
     public void UpdateState(string state = null) {
         anim.Play(state);
     }

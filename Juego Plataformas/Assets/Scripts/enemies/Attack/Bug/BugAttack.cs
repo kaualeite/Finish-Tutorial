@@ -23,11 +23,6 @@ public class BugAttack : MonoBehaviour {
         timerbc = timer;
     }
 
-    void Update()
-    {
-        //anim.SetBool("Attacking", );
-    }
-
     void OnTriggerEnter2D(Collider2D col)
     {
         // Comprobación de que es el jugador quien interactua con el
@@ -35,25 +30,32 @@ public class BugAttack : MonoBehaviour {
         {
             attacking = true;
 
-            while(timer != 0)
+           /* while(timer != 0)
             {
-                timer -= 0.5f;
+                timer -= 0.20f;
             }
             
             if (timer == 0)
-            {
+            {*/
                 //Debug.LogError("TIMER");
                 attackTrigger.enabled = true;
-            }
+            //}
             
             attackTimer = attackCd;
         }
-        if (attacking) {
+        /*if (attacking)
+        {
                 attacking = false;
                 attackTrigger.enabled = false;
-        }
+        }*/
         anim.SetBool("Attack", attacking);
         attacking = false;
         timer = timerbc;
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+            attackTrigger.enabled = false;
+            //attacking = false;
     }
 }
