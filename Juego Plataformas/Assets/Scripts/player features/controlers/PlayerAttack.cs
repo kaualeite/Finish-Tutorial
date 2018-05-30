@@ -27,13 +27,15 @@ public class PlayerAttack : MonoBehaviour {
         }
 
         if (attacking) {
-            if(attackTimer > 0) {
-                attackTimer -= Time.deltaTime;
+            if(attackTimer == 0) {
+                attackTimer -= 1;
             } else {
+                //Debug.LogError("timer");
                 attacking = false;
                 attackTrigger.enabled = false;
             }
         }
+
         anim.SetBool("Attacking", attacking);
     }
 }
