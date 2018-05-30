@@ -14,7 +14,6 @@ public class bugHealth : MonoBehaviour {
     public void die(int damage)
     {
         health = health - damage;
-        UpdateState("Player_Damage");
 
     }
 }
