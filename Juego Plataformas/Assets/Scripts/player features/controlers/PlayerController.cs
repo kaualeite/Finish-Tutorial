@@ -19,6 +19,9 @@ public class PlayerController : MonoBehaviour{
 	public float porterx = 0;
 	public float portery = 0;
 
+    //status
+    public bool slowed = false;
+
 
 	public float Savepointx = 0;
 	public float savepointy = 0;
@@ -125,6 +128,11 @@ public class PlayerController : MonoBehaviour{
     {
         vector.Normalize();
         rb2d.AddForce(new Vector2(vector.x * push, vector.y * push));
+
+    }
+
+    public void playerisSlowed(){
+
 
     }
     // Deteccion de daño al colisionar con un enemigo

@@ -20,7 +20,7 @@ public class Deleter : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Bullet")
+        if (other.gameObject.tag == "Bullet" || other.gameObject.tag == "snow")
         {
 
             Destroy(GameObject.Find(other.gameObject.name));

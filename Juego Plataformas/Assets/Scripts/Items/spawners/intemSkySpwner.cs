@@ -18,27 +18,28 @@ public class intemSkySpwner : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        posSpawner = (GameObject.Find(this.gameObject.name)).transform.position;
-        timeToDestroy -= Time.deltaTime;
-        if (timeToDestroy <= 0)
-        {
-            Spawned = (GameObject)Instantiate(itemSpawned, new Vector3(posSpawner.x ,posSpawner.y, 0), transform.rotation);
-            timeToDestroy = firstTime;
-
-        }
         if (target != null)
         {
             target.parent = null;
             start = transform.position;
             end = target.position;
         }
+        firstTime = timeToDestroy;
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        posSpawner = (GameObject.Find(this.gameObject.name)).transform.position;
+        timeToDestroy -= Time.deltaTime;
+        if (timeToDestroy <= 0)
+        {
+            Spawned = (GameObject)Instantiate(itemSpawned, new Vector3(posSpawner.x, posSpawner.y, 0), transform.rotation);
+            timeToDestroy = firstTime;
 
+        }
+       
     }
 
     void FixedUpdate()
