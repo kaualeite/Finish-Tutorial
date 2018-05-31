@@ -5,21 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu_to_firstscene : MonoBehaviour {
 
-
+    public GameObject menu;
 	// Use this for initialization
 	void Start () {
-		
+        menu.SetActive(true);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
+    public void continueGame()
+    {
 
-	public void Game(){
+        SceneManager.LoadScene("Principal", LoadSceneMode.Single);
+    }
+	public void newGame(){
 
-		SceneManager.LoadScene("Principal");
-
+        SceneManager.LoadScene("Principal", LoadSceneMode.Single);
 	}
 
 	public void Quit(){
