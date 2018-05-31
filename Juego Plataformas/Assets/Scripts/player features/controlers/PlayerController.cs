@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour{
 
     //status
     public bool slowed = false;
-    public bool confused = false;
+
 
 	public float Savepointx = 0;
 	public float savepointy = 0;
@@ -81,88 +81,42 @@ public class PlayerController : MonoBehaviour{
     }
 
     void FixedUpdate(){
-        if (confused == false)
-        {
-            // Corrigiendo friccion, a friccion finita
-            Vector3 fixedVelocity = rb2d.velocity;
-            fixedVelocity.x *= 0.75f;
+        // Corrigiendo friccion, a friccion finita
+        Vector3 fixedVelocity = rb2d.velocity;
+        fixedVelocity.x *= 0.75f;
 
-            if (grounded)
-            {
-                rb2d.velocity = fixedVelocity;
-            }
-            // Movimiento
-            float h = Input.GetAxis("Horizontal");
-
-            rb2d.AddForce(Vector2.right * speed * h);
-
-            // Si no hay movimiento quitamos la fuerza horizontal
-            if (!movement) h = 0;
-
-            float limitedSpeed = Mathf.Clamp(rb2d.velocity.x, -maxSpeed, maxSpeed);
-            rb2d.velocity = new Vector2(limitedSpeed * -1, rb2d.velocity.y * -1);
-
-            // Cambio de posicion izquierda - derecha
-            if (h > 0.1f)
-            {
-                transform.localScale = new Vector3(1f, 1f, 1f);
-            }
-
-            if (h < -0.1f)
-            {
-                transform.localScale = new Vector3(-1f, 1f, 1f);
-            }
-
-            // Salto
-            if (jump)
-            {
-                // Quitamos la fuerza del salto
-                rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
-                // Salto normal 
-                rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
-                jump = false;
-            }
-        }else{
-            // Corrigiendo friccion, a friccion finita
-            Vector3 fixedVelocity = rb2d.velocity;
-            fixedVelocity.x *= 0.75f;
-
-            if (grounded)
-            {
-                rb2d.velocity = fixedVelocity;
-            }
-            // Movimiento
-            float h = Input.GetAxis("Horizontal");
-
-            rb2d.AddForce(Vector2.right * speed * h);
-
-            // Si no hay movimiento quitamos la fuerza horizontal
-            if (!movement) h = 0;
-
-            float limitedSpeed = Mathf.Clamp(rb2d.velocity.x, -maxSpeed, maxSpeed);
-            rb2d.velocity = new Vector2(limitedSpeed, rb2d.velocity.y);
-
-            // Cambio de posicion izquierda - derecha
-            if (h > 0.1f)
-            {
-                transform.localScale = new Vector3(-1f, -1f, -1f);
-            }
-
-            if (h < -0.1f)
-            {
-                transform.localScale = new Vector3(1f, -1f, -1f);
-            }
-
-            // Salto
-            if (jump)
-            {
-                // Quitamos la fuerza del salto
-                rb2d.velocity = new Vector2(rb2d.velocity.x * -1, 0);
-                // Salto normal 
-                rb2d.AddForce(Vector2.up * -jumpPower, ForceMode2D.Impulse);
-                jump = false;
-            }
+        if (grounded){
+            rb2d.velocity = fixedVelocity;
         }
+        // Movimiento
+        float h = Input.GetAxis("Horizontal");
+
+        rb2d.AddForce(Vector2.right * speed * h);
+
+        // Si no hay movimiento quitamos la fuerza horizontal
+        if (!movement) h = 0;
+
+        float limitedSpeed = Mathf.Clamp(rb2d.velocity.x, -maxSpeed, maxSpeed);
+        rb2d.velocity = new Vector2(limitedSpeed, rb2d.velocity.y);
+
+        // Cambio de posicion izquierda - derecha
+        if (h > 0.1f){
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }
+
+        if (h < -0.1f){
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
+
+        // Salto
+        if (jump){
+            // Quitamos la fuerza del salto
+            rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+            // Salto normal 
+            rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+            jump = false;
+        }
+
         //Debug.Log(rb2d.velocity.x);
     }
 
