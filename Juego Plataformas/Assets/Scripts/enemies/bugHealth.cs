@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class bugHealth : MonoBehaviour {
 
-    //public GameObject bicho;
     private Animator anim;
     private bool dead;
     public int health;
@@ -12,7 +11,6 @@ public class bugHealth : MonoBehaviour {
 
     void Start () {
         anim = gameObject.GetComponent<Animator>();
-        //bicho = GameObject.Find("Bicho");
         dead = false;
     }
 
@@ -27,7 +25,7 @@ public class bugHealth : MonoBehaviour {
     public void BugHit(int damage)
     {
         health = health - damage;
-        if(health == 0)
+        if (health == 0)
         {
             dead = true;
             BugDie(dead);
