@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class impulseUp : MonoBehaviour {
+public class push : MonoBehaviour {
 
-    public GameObject obj;
     public float vx = 0;
     public float vy = 0;
     private Rigidbody2D rb2d;

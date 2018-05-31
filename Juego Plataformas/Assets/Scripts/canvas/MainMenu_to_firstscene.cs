@@ -18,11 +18,11 @@ public class MainMenu_to_firstscene : MonoBehaviour {
     public void continueGame()
     {
 
-        SceneManager.LoadScene("Principal", LoadSceneMode.Single);
+        SceneManager.LoadScene("nuevaScene", LoadSceneMode.Single);
     }
 	public void newGame(){
 
-        SceneManager.LoadScene("Principal", LoadSceneMode.Single);
+        SceneManager.LoadScene("nuevaScene", LoadSceneMode.Single);
 	}
 
 	public void Quit(){
