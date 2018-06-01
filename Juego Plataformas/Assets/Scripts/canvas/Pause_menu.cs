@@ -58,5 +58,8 @@ public class Pause_menu : MonoBehaviour {
         Application.Quit();
 
 	}
-
+    public void PauseGame()
+    {
+        paused = !paused;
+    }
 }

@@ -1,10 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour{
 
+     Image image;
+    public Sprite nothing;
+    public Sprite fuego;
+    public Sprite hielo;
+    public Sprite trueno;
+    public Text healthText;
+    public Text keyText;
     // Variables para la velocidad
     public float maxSpeed = 5f;
     public float speed = 2f;
@@ -20,8 +27,10 @@ public class PlayerController : MonoBehaviour{
 	public float portery = 0;
 
     //status
+    public bool changeStatus = false;
     public bool slowed = false;
-
+    public bool burned = false;
+    public bool lightned = false;
 
 	public float Savepointx = 0;
 	public float savepointy = 0;
@@ -40,6 +49,7 @@ public class PlayerController : MonoBehaviour{
 
     // Use this for initialization
     void Start(){
+        image = image = GameObject.Find("status").GetComponent<Image>();;
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spr = GetComponent<SpriteRenderer>();
@@ -48,10 +58,32 @@ public class PlayerController : MonoBehaviour{
 
     // Update is called once per frame
     void Update(){
-
+        healthText.text = health.ToString();
+        keyText.text = keyNumber.ToString();
         anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));
         anim.SetBool("Grounded", grounded);
 
+
+        if(changeStatus == true){
+            if(burned == true){
+
+                image.sprite = fuego;
+
+
+            }
+            if(lightned == true){
+
+                image.sprite = trueno;
+
+
+            }
+            if(slowed == true){
+                
+                image.sprite = hielo;
+            }
+        }else{
+        }
+        image.sprite = nothing;
         // Salto de precaución
         if (grounded){
             doubleJump = true;
