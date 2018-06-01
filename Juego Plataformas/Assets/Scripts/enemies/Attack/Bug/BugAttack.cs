@@ -24,16 +24,12 @@ public class BugAttack : MonoBehaviour {
         if (col.gameObject.tag == "Player")
         {
             attacking = true;
-            Invoke("BugTrigger", 0.3f);
+            Invoke("BugTrigger", 0.4f);
             attackTimer = attackCd;
         }
-        /*if (attacking)
-        {
-                attacking = false;
-                attackTrigger.enabled = false;
-        }*/
         anim.SetBool("Attack", attacking);
-        attacking = false;
+        Invoke("BugAttacking", 0.2f);
+
     }
 
     private void OnTriggerExit2D(Collider2D col)
@@ -45,5 +41,10 @@ public class BugAttack : MonoBehaviour {
     private void BugTrigger()
     {
         attackTrigger.enabled = true;
+    }
+
+    private void BugAttacking()
+    {
+        attacking = false;
     }
 }
