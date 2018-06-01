@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class RedEnemyAttack : MonoBehaviour {
 
+    public int damage;
+
+
     void OnTriggerEnter2D(Collider2D col)
     {
 
@@ -20,6 +23,7 @@ public class RedEnemyAttack : MonoBehaviour {
             else
             {
                 col.SendMessage("EnemyKnockBack", transform.position.x);
+                col.SendMessage("Hit", damage);
             }
         }
     }

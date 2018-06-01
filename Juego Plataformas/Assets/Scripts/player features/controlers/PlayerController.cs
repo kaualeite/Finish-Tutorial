@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour{
 
     // Update is called once per frame
     void Update(){
-        healthText.text = health.ToString();
+        healthText.text = health.ToString() + "/" + maxhealth.ToString();
         keyText.text = keyNumber.ToString();
         anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));
         anim.SetBool("Grounded", grounded);
@@ -82,9 +82,11 @@ public class PlayerController : MonoBehaviour{
                 image.sprite = hielo;
             }
         }else{
+            image.sprite = nothing;
         }
-        image.sprite = nothing;
+       
         // Salto de precaución
+
         if (grounded){
             doubleJump = true;
         }
@@ -114,41 +116,47 @@ public class PlayerController : MonoBehaviour{
 
     void FixedUpdate(){
         // Corrigiendo friccion, a friccion finita
-        Vector3 fixedVelocity = rb2d.velocity;
-        fixedVelocity.x *= 0.75f;
+        if (lightned == false)
+        {
+            Vector3 fixedVelocity = rb2d.velocity;
+            fixedVelocity.x *= 0.75f;
 
-        if (grounded){
-            rb2d.velocity = fixedVelocity;
+            if (grounded)
+            {
+                rb2d.velocity = fixedVelocity;
+            }
+            // Movimiento
+            float h = Input.GetAxis("Horizontal");
+
+            rb2d.AddForce(Vector2.right * speed * h);
+
+            // Si no hay movimiento quitamos la fuerza horizontal
+            if (!movement) h = 0;
+
+            float limitedSpeed = Mathf.Clamp(rb2d.velocity.x, -maxSpeed, maxSpeed);
+            rb2d.velocity = new Vector2(limitedSpeed, rb2d.velocity.y);
+
+            // Cambio de posicion izquierda - derecha
+            if (h > 0.1f)
+            {
+                transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+
+            if (h < -0.1f)
+            {
+                transform.localScale = new Vector3(-1f, 1f, 1f);
+            }
+
+            // Salto
+            if (jump)
+            {
+                // Quitamos la fuerza del salto
+                rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+                // Salto normal 
+                rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+                jump = false;
+            }
         }
-        // Movimiento
-        float h = Input.GetAxis("Horizontal");
-
-        rb2d.AddForce(Vector2.right * speed * h);
-
-        // Si no hay movimiento quitamos la fuerza horizontal
-        if (!movement) h = 0;
-
-        float limitedSpeed = Mathf.Clamp(rb2d.velocity.x, -maxSpeed, maxSpeed);
-        rb2d.velocity = new Vector2(limitedSpeed, rb2d.velocity.y);
-
-        // Cambio de posicion izquierda - derecha
-        if (h > 0.1f){
-            transform.localScale = new Vector3(1f, 1f, 1f);
-        }
-
-        if (h < -0.1f){
-            transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
-
-        // Salto
-        if (jump){
-            // Quitamos la fuerza del salto
-            rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
-            // Salto normal 
-            rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
-            jump = false;
-        }
-
         //Debug.Log(rb2d.velocity.x);
     }
 
@@ -179,8 +187,6 @@ public class PlayerController : MonoBehaviour{
         // Quitamos el movimiento
         movement = false;
         Invoke("EnableMovement", 1f);
-
-        Hit(20);
 
         Invoke("Normal", 0.2f);
         

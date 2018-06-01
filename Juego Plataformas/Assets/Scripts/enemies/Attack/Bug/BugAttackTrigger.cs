@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class BugAttackTrigger : MonoBehaviour {
 
+    public int damage;
+
     void OnTriggerEnter2D(Collider2D col)
     {
         // Comprobación de que es el jugador quien interactua con el
         if (col.gameObject.name == "Player")
         {
             col.SendMessage("EnemyKnockBack", transform.position.x);
+            col.SendMessage("Hit", damage);
         }
     }
 }

@@ -5,11 +5,12 @@ using UnityEngine;
 public class YellowPower : MonoBehaviour {
     private Rigidbody2D rb2d;
     public PlayerController player;
-
+    public GameObject p;
     // Use this for initialization
     void Start()
     {
         player = (GameObject.Find("Player").GetComponent(typeof(PlayerController)) as PlayerController);
+        p = (GameObject.Find("Player"));
         rb2d = GetComponent<Rigidbody2D>();
     }
 
@@ -22,10 +23,10 @@ public class YellowPower : MonoBehaviour {
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player" || other.gameObject.tag == "GroundColider")
+        if (other.gameObject.tag == "Player")
         {
 
-
+            p.AddComponent<Lightning>();
             Destroy(GameObject.Find(this.gameObject.name));
 
         }
