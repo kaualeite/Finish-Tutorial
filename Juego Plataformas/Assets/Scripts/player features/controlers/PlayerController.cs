@@ -201,7 +201,7 @@ public class PlayerController : MonoBehaviour{
     void Normal() {
         UpdateState("Player_Idle");
     }
-	public void Hit(int damage){
+    public void Hit(int damage){
 		health = health - damage;
 		UpdateState("Player_Damage");
 
