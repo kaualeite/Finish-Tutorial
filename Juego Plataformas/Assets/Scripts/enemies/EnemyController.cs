@@ -20,12 +20,9 @@ public class EnemyController : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        Vector3 fixedVelocity = rb2d.velocity;
-        fixedVelocity.x *= 0.75f;
-
         if (grounded)
         {
-            rb2d.velocity = fixedVelocity;
+
         }
 
         // Movimiento
