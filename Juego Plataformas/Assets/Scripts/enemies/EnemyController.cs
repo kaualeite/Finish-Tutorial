@@ -8,6 +8,8 @@ public class EnemyController : MonoBehaviour {
     public float maxSpeed = 1f;
     public float speed = 1f;
 
+    public bool grounded;
+
     private Rigidbody2D rb2d;
 
     // Use this for initialization
@@ -17,6 +19,14 @@ public class EnemyController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+
+        Vector3 fixedVelocity = rb2d.velocity;
+        fixedVelocity.x *= 0.75f;
+
+        if (grounded)
+        {
+            rb2d.velocity = fixedVelocity;
+        }
 
         // Movimiento
         rb2d.AddForce(Vector2.right * speed);

@@ -22,4 +22,9 @@ public class WormAttack : MonoBehaviour {
             col.SendMessage("Hit", damage);
         }
     }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        attackTrigger.enabled = false;
+    }
 }
