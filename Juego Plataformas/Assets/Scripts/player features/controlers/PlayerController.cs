@@ -4,12 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour{
-
+     Image image2;
      Image image;
     public Sprite nothing;
     public Sprite fuego;
     public Sprite hielo;
     public Sprite trueno;
+    public Sprite velocidad;
+    public Sprite jumpe;
+    public Sprite life;
     public Text healthText;
     public Text keyText;
     // Variables para la velocidad
@@ -32,7 +35,14 @@ public class PlayerController : MonoBehaviour{
     public bool burned = false;
     public bool lightned = false;
 
-	public float Savepointx = 0;
+    //boosts
+    public bool boosted = false;
+    public bool jumper = false;
+    public bool runner = false;
+    public bool vit = false;
+
+
+    public float Savepointx = 0;
 	public float savepointy = 0;
 
 	public float keyNumber = 0;
@@ -49,7 +59,8 @@ public class PlayerController : MonoBehaviour{
 
     // Use this for initialization
     void Start(){
-        image = image = GameObject.Find("status").GetComponent<Image>();;
+        image = GameObject.Find("status").GetComponent<Image>();
+        image2 = GameObject.Find("boost").GetComponent<Image>(); 
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spr = GetComponent<SpriteRenderer>();
@@ -84,7 +95,34 @@ public class PlayerController : MonoBehaviour{
         }else{
             image.sprite = nothing;
         }
-       
+
+        if (boosted == true)
+        {
+            if (runner == true)
+            {
+
+                image2.sprite = velocidad;
+
+
+            }
+            if (jumper == true)
+            {
+
+                image2.sprite = jumpe;
+
+
+            }
+            if (vit == true)
+            {
+
+                image2.sprite = life;
+            }
+        }
+        else
+        {
+            image2.sprite = nothing;
+        }
+
         // Salto de precaución
 
         if (grounded){
