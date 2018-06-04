@@ -15,6 +15,7 @@ public class Diamond : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
+            player.coins = player.coins + 1;
             Destroy(GameObject.Find(this.gameObject.name));
         }
     }

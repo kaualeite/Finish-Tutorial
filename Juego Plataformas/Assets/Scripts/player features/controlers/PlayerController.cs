@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour{
     public Text healthText;
     public Text keyText;
     public Text shieldText;
+    public Text coinsText;
     // Variables para la velocidad
     public float maxSpeed = 5f;
     public float speed = 2f;
@@ -51,7 +52,9 @@ public class PlayerController : MonoBehaviour{
     public float Savepointx = 0;
 	public float savepointy = 0;
 
+    //items
 	public float keyNumber = 0;
+    public float coins = 0;
 
     private Rigidbody2D rb2d;
     private Animator anim;
@@ -77,6 +80,7 @@ public class PlayerController : MonoBehaviour{
     void Update(){
         healthText.text = health.ToString() + "/" + maxhealth.ToString();
         shieldText.text = shield.ToString() + "/" + maxshield.ToString();
+        coinsText.text = coins.ToString();
         keyText.text = keyNumber.ToString();
         anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));
         anim.SetBool("Grounded", grounded);
