@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour{
      Image image2;
      Image image;
+
     public Sprite nothing;
     public Sprite fuego;
     public Sprite hielo;
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour{
     public Sprite life;
     public Text healthText;
     public Text keyText;
+    public Text shieldText;
     // Variables para la velocidad
     public float maxSpeed = 5f;
     public float speed = 2f;
@@ -25,6 +27,9 @@ public class PlayerController : MonoBehaviour{
     // Variables para la vida
 	public int health;
 	public int maxhealth = 100;
+    //variables para el escudo
+    public int shield;
+    public int maxshield = 200;
 
 	public float porterx = 0;
 	public float portery = 0;
@@ -70,6 +75,7 @@ public class PlayerController : MonoBehaviour{
     // Update is called once per frame
     void Update(){
         healthText.text = health.ToString() + "/" + maxhealth.ToString();
+        shieldText.text = shield.ToString() + "/" + maxshield.ToString();
         keyText.text = keyNumber.ToString();
         anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));
         anim.SetBool("Grounded", grounded);
@@ -146,7 +152,13 @@ public class PlayerController : MonoBehaviour{
 		if (health > maxhealth) {
 			health = maxhealth;
 		}
-
+        if (shield > maxshield)
+        {
+            shield = maxshield;
+        }
+        if(shield < 0){
+            shield = 0;
+        }
 		if (health <= 0) {
 			Die ();
 		}
@@ -209,10 +221,7 @@ public class PlayerController : MonoBehaviour{
 
     }
 
-    public void playerisSlowed(){
-
-
-    }
+ 
     // Deteccion de daño al colisionar con un enemigo
     public void EnemyKnockBack(float enemyPosX/*, int damage*/) {
         jump = true;
@@ -240,8 +249,13 @@ public class PlayerController : MonoBehaviour{
         UpdateState("Player_Idle");
     }
     public void Hit(int damage){
-		health = health - damage;
-		UpdateState("Player_Damage");
+        if (shield <= 0)
+        {
+            health = health - damage;
+            UpdateState("Player_Damage");
+        }else{
+            shield = shield - damage;
+        }
 
 	}
     void Die() {

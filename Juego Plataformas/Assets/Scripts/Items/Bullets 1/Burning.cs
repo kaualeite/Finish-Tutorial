@@ -25,17 +25,18 @@ public class Burning : MonoBehaviour {
     void Update()
     {
         timeToBurn -= Time.deltaTime;
+        timeToDestroy -= Time.deltaTime;
         if (contburnt != 0)
         {
             if (timeToBurn <= 0)
             {
-                player.EnemyKnockBack(15);
+                
                 player.Hit(damage);
                 timeToBurn = 1;
                 contburnt = contburnt - 1;
             }
         }
-        timeToDestroy -= Time.deltaTime;
+
         if (timeToDestroy <= 0)
         {
             player.changeStatus = false;
