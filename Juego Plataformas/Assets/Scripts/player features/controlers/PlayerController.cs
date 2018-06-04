@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour{
     public Sprite trueno;
     public Sprite velocidad;
     public Sprite jumpe;
-    public Sprite life;
+    public Sprite inmune;
     public Text healthText;
     public Text keyText;
     public Text shieldText;
@@ -44,7 +44,8 @@ public class PlayerController : MonoBehaviour{
     public bool boosted = false;
     public bool jumper = false;
     public bool runner = false;
-    public bool vit = false;
+    public bool inmunity = false;
+
 
 
     public float Savepointx = 0;
@@ -118,10 +119,10 @@ public class PlayerController : MonoBehaviour{
 
 
             }
-            if (vit == true)
+            if (inmunity == true)
             {
 
-                image2.sprite = life;
+                image2.sprite = inmune;
             }
         }
         else
@@ -249,14 +250,24 @@ public class PlayerController : MonoBehaviour{
         UpdateState("Player_Idle");
     }
     public void Hit(int damage){
-        if (shield <= 0)
+        if (inmunity == false)
         {
-            health = health - damage;
-            UpdateState("Player_Damage");
-        }else{
-            shield = shield - damage;
+            if (shield <= 0)
+            {
+                health = health - damage;
+                UpdateState("Player_Damage");
+            }
+            else
+            {
+                shield = shield - damage;
+                if (shield < 0)
+                {
+                    health = health + shield;
+                }
+            }
         }
-
+        inmunity = false;
+        boosted = false;
 	}
     void Die() {
 		transform.position = new Vector3(Savepointx, savepointy, 0);
