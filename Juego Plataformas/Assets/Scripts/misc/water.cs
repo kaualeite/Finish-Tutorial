@@ -10,8 +10,6 @@ public class water : MonoBehaviour {
 	void Start () {
         player = (GameObject.Find("Player").GetComponent(typeof(PlayerController)) as PlayerController);
         p = (GameObject.Find("Player"));
-        
-
     }
 	
 	// Update is called once per frame
