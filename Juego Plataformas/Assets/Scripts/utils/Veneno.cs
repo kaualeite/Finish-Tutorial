@@ -11,7 +11,6 @@ public class Veneno : MonoBehaviour {
         // Comprobación de que es el jugador quien interactua con el
         if (col.gameObject.name == "Player")
         {
-            col.SendMessage("EnemyKnockBack", transform.position.x);
             col.SendMessage("Hit", damage);
         }
     }
