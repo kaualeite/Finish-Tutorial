@@ -6,7 +6,7 @@ public class playerDatesPersistance : MonoBehaviour {
 
     public static persistentManager instance = null;
     public float life;
-    public float shield:
+    public float shield;
     public float lastPosx;
     public float lasPosy;
     public float coins;
@@ -15,10 +15,13 @@ public class playerDatesPersistance : MonoBehaviour {
 
     private void Awake()
     {
-        if (instance == null)
-            instance = this;
+        if (instance == null) { 
+          //  instance = this;
+        }
         else if (instance != this)
+        {
             Destroy(gameObject);
+        }
     }
     // Use this for initialization
     void Start()
