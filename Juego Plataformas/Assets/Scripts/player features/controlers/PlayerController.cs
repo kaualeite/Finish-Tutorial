@@ -117,14 +117,13 @@ public class PlayerController : MonoBehaviour{
     // Update is called once per frame
     void Update(){
 
-        if (comproba == true)
-        {
+        
         
             healthText.text = health.ToString() + "/" + maxhealth.ToString();
             shieldText.text = shield.ToString() + "/" + maxshield.ToString();
             coinsText.text = coins.ToString();
             keyText.text = keyNumber.ToString();
-        }
+        
         anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));
         anim.SetBool("Grounded", grounded);
 
