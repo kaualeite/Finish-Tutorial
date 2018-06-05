@@ -82,7 +82,7 @@ public class PlayerController : MonoBehaviour{
         spr = GetComponent<SpriteRenderer>();
 		health = maxhealth;
 
-        //charge = persistentManager.instance.cargar;
+        charge = persistentManager.instance.cargar;
         if (charge == true)
         {
             read();
