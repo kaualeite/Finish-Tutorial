@@ -6,12 +6,11 @@ using System.IO;
 
 
 public class MainMenu_to_firstscene : MonoBehaviour {
-
+    
     public GameObject menu;
     private string filename = "data.txt";
     public string escena = "";
-    public float posx = 0;
-    public float posy = 0;
+    public bool cargar = false;
 
 	// Use this for initialization
 	void Start () {
@@ -26,7 +25,14 @@ public class MainMenu_to_firstscene : MonoBehaviour {
     {
 
         read();
+        persistentManager.instance.cargar = true;
+        cargar = true;
         SceneManager.LoadScene(escena, LoadSceneMode.Single);
+       
+
+
+
+
     }
 	public void newGame(){
 
@@ -63,8 +69,7 @@ public class MainMenu_to_firstscene : MonoBehaviour {
 
         }
         escena = fields[0];
-        posx = float.Parse(fields[1]);
-        posy = float.Parse(fields[2]);
+     
     }
 }
 
