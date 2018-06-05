@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class normal_spike : MonoBehaviour {
     public PlayerController player;
+    public int damage = 0;
     // Use this for initialization
     void Start () {
-        player = GetComponentInParent<PlayerController>();
+        player = (GameObject.Find("Player").GetComponent(typeof(PlayerController)) as PlayerController);
     }
 	
 	// Update is called once per frame
@@ -14,17 +15,12 @@ public class normal_spike : MonoBehaviour {
 		
 	}
 
-    void OnTriggerEnter2D(Collider2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
-
-        
-        if (col.gameObject.tag == "spike")
+        if (col.gameObject.tag == "Player")
         {
-
-
-            player.Hit(50);
-
-
-        }
+            player.EnemyKnockBack(15);
+            player.Hit(damage);
         }
     }
+}
