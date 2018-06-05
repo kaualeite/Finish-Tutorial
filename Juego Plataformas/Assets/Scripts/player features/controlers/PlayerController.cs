@@ -153,21 +153,14 @@ public class PlayerController : MonoBehaviour{
         {
             if (runner == true)
             {
-
                 image2.sprite = velocidad;
-
-
             }
             if (jumper == true)
             {
-
                 image2.sprite = jumpe;
-
-
             }
             if (inmunity == true)
             {
-
                 image2.sprite = inmune;
             }
         }
@@ -336,21 +329,12 @@ public class PlayerController : MonoBehaviour{
         string[] fields = itemStrings.Split(delimiter);
         while (itemStrings != null)
         {
-
-
             for (int i = 0; i < fields.Length; i++)
             {
-
                 Debug.Log(fields[i]);
-
-
             }
-
             itemStrings = reader.ReadLine();
-
-
         }
-       
         posx = float.Parse(fields[1]);
         posy = float.Parse(fields[2]);
     }
