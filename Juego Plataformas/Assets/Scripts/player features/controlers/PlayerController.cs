@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using  System.IO;
 
 public class PlayerController : MonoBehaviour{
      Image image2;
      Image image;
 
+
+    private bool charge = false;
+    public float posx = 0;
+    public float posy = 0;
     public Sprite nothing;
     public Sprite fuego;
     public Sprite hielo;
@@ -74,6 +79,15 @@ public class PlayerController : MonoBehaviour{
         anim = GetComponent<Animator>();
         spr = GetComponent<SpriteRenderer>();
 		health = maxhealth;
+
+        //charge = persistentManager.instance.cargar;
+        if (charge == true)
+        {
+            read();
+            Savepointx = posx;
+            savepointy = posy;
+            transform.position = new Vector3(posx, posy, 0);
+        }
     }
 
     // Update is called once per frame
@@ -285,5 +299,31 @@ public class PlayerController : MonoBehaviour{
     // Cambio de Animaciones
     public void UpdateState(string state = null) {
         anim.Play(state);
+    }
+    public void read()
+    {
+        StreamReader reader = new StreamReader("./Save.txt");
+        string itemStrings = reader.ReadLine();
+        char[] delimiter = { ';' };
+        string[] fields = itemStrings.Split(delimiter);
+        while (itemStrings != null)
+        {
+
+
+            for (int i = 0; i < fields.Length; i++)
+            {
+
+                Debug.Log(fields[i]);
+
+
+            }
+
+            itemStrings = reader.ReadLine();
+
+
+        }
+       
+        posx = float.Parse(fields[1]);
+        posy = float.Parse(fields[2]);
     }
 }

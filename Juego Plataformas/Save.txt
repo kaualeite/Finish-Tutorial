@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 UnityEngine.SceneManagement.Scene
 91.57
 -2.619999
+=======
+first;65.35004;15.53619;
+>>>>>>> b2031155756ac5311db86c0c8f62ffef33978b2f

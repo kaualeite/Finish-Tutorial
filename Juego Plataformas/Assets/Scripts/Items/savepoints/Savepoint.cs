@@ -40,9 +40,9 @@ public void Extract()
         }
         var sr = File.CreateText(fileName);
 
-        sr.WriteLine(SceneManager.GetActiveScene());
-        sr.WriteLine(player.Savepointx);
-        sr.WriteLine(player.savepointy);
+        sr.Write(SceneManager.GetActiveScene().name + ";");
+        sr.Write(player.Savepointx + ";");
+        sr.Write(player.savepointy + ";");
         sr.Close();
     }
 }
