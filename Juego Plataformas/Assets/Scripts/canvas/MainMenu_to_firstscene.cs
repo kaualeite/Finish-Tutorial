@@ -70,7 +70,7 @@ public class MainMenu_to_firstscene : MonoBehaviour {
 
         }
         escena = fields[0];
-        persistentManager.instance.life = int.Parse(fields[3]);h
+        persistentManager.instance.life = int.Parse(fields[3]);
         persistentManager.instance.maaxlife = int.Parse(fields[4]);
         persistentManager.instance.shield = int.Parse(fields[5]);
         persistentManager.instance.maxshield = int.Parse(fields[6]);
