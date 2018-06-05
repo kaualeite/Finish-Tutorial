@@ -7,6 +7,13 @@ public class persistentManager : MonoBehaviour {
     public bool cargar = false;
 
 
+    public int life;
+    public int maaxlife;
+    public int shield;
+    public int maxshield;
+    public float coins;
+    public float keys;
+
 	private void Awake()
 	{
         if (instance == null)

@@ -43,6 +43,12 @@ public void Extract()
         sr.Write(SceneManager.GetActiveScene().name + ";");
         sr.Write(player.Savepointx + ";");
         sr.Write(player.savepointy + ";");
+        sr.Write(player.health + ";");
+        sr.Write(player.maxhealth + ";");
+        sr.Write(player.shield + ";");
+        sr.Write(player.maxshield + ";");
+        sr.Write(player.coins + ";");
+        sr.Write(player.keyNumber + ";");
         sr.Close();
     }
 }

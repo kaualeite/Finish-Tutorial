@@ -11,6 +11,7 @@ public class MainMenu_to_firstscene : MonoBehaviour {
     private string filename = "data.txt";
     public string escena = "";
     public bool cargar = false;
+    
 
 	// Use this for initialization
 	void Start () {
@@ -69,7 +70,12 @@ public class MainMenu_to_firstscene : MonoBehaviour {
 
         }
         escena = fields[0];
-     
+        persistentManager.instance.life = int.Parse(fields[3]);
+        persistentManager.instance.maaxlife = int.Parse(fields[4]);
+        persistentManager.instance.shield = int.Parse(fields[5]);
+        persistentManager.instance.maxshield = int.Parse(fields[6]);
+        persistentManager.instance.keys = float.Parse(fields[7]);
+        persistentManager.instance.coins = float.Parse(fields[8]);
     }
 }
 

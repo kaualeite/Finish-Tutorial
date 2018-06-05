@@ -61,6 +61,8 @@ public class PlayerController : MonoBehaviour{
 	public float keyNumber = 0;
     public float coins = 0;
 
+    public bool comproba = false;
+
     private Rigidbody2D rb2d;
     private Animator anim;
     private SpriteRenderer spr;
@@ -80,22 +82,49 @@ public class PlayerController : MonoBehaviour{
         spr = GetComponent<SpriteRenderer>();
 		health = maxhealth;
 
-        //charge = persistentManager.instance.cargar;
+        charge = persistentManager.instance.cargar;
         if (charge == true)
         {
             read();
             Savepointx = posx;
             savepointy = posy;
             transform.position = new Vector3(posx, posy, 0);
+
+            health = persistentManager.instance.life;
+            maxhealth = persistentManager.instance.maaxlife;
+            shield = persistentManager.instance.shield;
+            maxshield = persistentManager.instance.maxshield;
+            coins = persistentManager.instance.coins;
+            keyNumber = persistentManager.instance.keys;
+
+            healthText.text = persistentManager.instance.life.ToString() + "/" + persistentManager.instance.maaxlife.ToString();
+            shieldText.text = persistentManager.instance.shield.ToString() + "/" + persistentManager.instance.maxshield.ToString();
+            coinsText.text = persistentManager.instance.coins.ToString();
+            keyText.text = persistentManager.instance.keys.ToString();
+            persistentManager.instance.cargar = false;
+            comproba = true;
+        }
+        else
+        {
+            comproba = false;
+            healthText.text = health.ToString() + "/" + maxhealth.ToString();
+            shieldText.text = shield.ToString() + "/" + maxshield.ToString();
+            coinsText.text = coins.ToString();
+            keyText.text = keyNumber.ToString();
         }
     }
 
     // Update is called once per frame
     void Update(){
-        healthText.text = health.ToString() + "/" + maxhealth.ToString();
-        shieldText.text = shield.ToString() + "/" + maxshield.ToString();
-        coinsText.text = coins.ToString();
-        keyText.text = keyNumber.ToString();
+
+        if (comproba == true)
+        {
+        
+            healthText.text = health.ToString() + "/" + maxhealth.ToString();
+            shieldText.text = shield.ToString() + "/" + maxshield.ToString();
+            coinsText.text = coins.ToString();
+            keyText.text = keyNumber.ToString();
+        }
         anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));
         anim.SetBool("Grounded", grounded);
 
@@ -327,3 +356,4 @@ public class PlayerController : MonoBehaviour{
         posy = float.Parse(fields[2]);
     }
 }
+
