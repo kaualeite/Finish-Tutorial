@@ -45,6 +45,8 @@ public class PlayerController : MonoBehaviour{
     public bool slowed = false;
     public bool burned = false;
     public bool lightned = false;
+    public bool antiGravity = false;
+
 
     //boosts
     public bool boosted = false;
@@ -240,11 +242,19 @@ public class PlayerController : MonoBehaviour{
             // Salto
             if (jump)
             {
-                // Quitamos la fuerza del salto
-                rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
-                // Salto normal 
-                rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
-                jump = false;
+                if (antiGravity == false)
+                {
+                    // Quitamos la fuerza del salto
+                    rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+                    // Salto normal 
+                    rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+                    jump = false;
+                }else{
+                    rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+                    // Salto normal 
+                    rb2d.AddForce(Vector2.up * jumpPower * -1, ForceMode2D.Impulse);
+                    jump = false;  
+                }
             }
         }
         //Debug.Log(rb2d.velocity.x);
@@ -309,8 +319,10 @@ public class PlayerController : MonoBehaviour{
         boosted = false;
 	}
     void Die() {
+        rb2d.velocity = new Vector3(0, 0, 0);
 		transform.position = new Vector3(Savepointx, savepointy, 0);
 		health = maxhealth;
+        playerRealGravity();
     }
 	public void Playerusekeydoor() {
 		transform.position = new Vector3(porterx, portery, 0);
@@ -320,6 +332,14 @@ public class PlayerController : MonoBehaviour{
     // Cambio de Animaciones
     public void UpdateState(string state = null) {
         anim.Play(state);
+    }
+    public void playerRevertGravity(){
+        rb2d.gravityScale *= -1;
+        transform.Rotate(180, 1 * Time.deltaTime, 0);
+    }
+    public void playerRealGravity(){
+        rb2d.gravityScale *= -1;
+        transform.Rotate(180, 1 * Time.deltaTime, 0);
     }
     public void read()
     {
