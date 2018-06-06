@@ -10,7 +10,7 @@ public class NewSceneDoor : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         player = (GameObject.Find("Player").GetComponent(typeof(PlayerController)) as PlayerController);
-		
+
 	}
 	
 	// Update is called once per frame
@@ -21,8 +21,9 @@ public class NewSceneDoor : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
+            
+            persistentManager.instance.cargarHud = true;
             Extract();
-            persistentManager.instance.cargar = true;
             SceneManager.LoadScene(scenetogo, LoadSceneMode.Single);
 
         }
@@ -30,7 +31,7 @@ public class NewSceneDoor : MonoBehaviour {
     public void Extract()
     {
         var fileName = "Save.txt";
-        player = GetComponentInParent<PlayerController>();
+       
         if (File.Exists(fileName))
         {
             File.Delete(fileName);

@@ -5,7 +5,7 @@ using UnityEngine;
 public class persistentManager : MonoBehaviour {
     public static persistentManager instance = null;
     public bool cargar = false;
-
+    public bool cargarHud = false;
 
     public int life;
     public int maaxlife;
