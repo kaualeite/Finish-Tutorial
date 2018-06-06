@@ -7,7 +7,8 @@ public class Map_checker : MonoBehaviour {
     private bool inmap = false;
     void Start()
     {
-        player = GetComponentInParent<PlayerController>();
+        player = (GameObject.Find("Player").GetComponent(typeof(PlayerController)) as PlayerController);
+
 
     }
 
@@ -17,6 +18,7 @@ public class Map_checker : MonoBehaviour {
 			inmap = false;
 			if (inmap == false) {
 				player.health = 0;
+                player.shield = 0;
 
 			} else {
 				inmap = true;

@@ -4,12 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
 using System.IO;
+using UnityEngine.UI;
 
 public class Savepoint : MonoBehaviour {
     private PlayerController player;
+ 
     // Use this for initialization
     void Start () {
-        player = GetComponentInParent<PlayerController>();
+        player = (GameObject.Find("Player").GetComponent(typeof(PlayerController)) as PlayerController);
+
+       
     }
 	
 	// Update is called once per frame
@@ -24,7 +28,8 @@ public class Savepoint : MonoBehaviour {
 			player.Savepointx = positions.x;
 			player.savepointy = positions.y;
 			Extract ();
-			player.grounded = true;
+           
+
 		}
         
 
