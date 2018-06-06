@@ -322,7 +322,7 @@ public class PlayerController : MonoBehaviour{
         rb2d.velocity = new Vector3(0, 0, 0);
 		transform.position = new Vector3(Savepointx, savepointy, 0);
 		health = maxhealth;
-        playerRealGravity();
+        rb2d.gravityScale *= 1;
     }
 	public void Playerusekeydoor() {
 		transform.position = new Vector3(porterx, portery, 0);
