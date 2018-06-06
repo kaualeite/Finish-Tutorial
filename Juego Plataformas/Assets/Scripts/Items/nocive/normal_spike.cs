@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class normal_spike : MonoBehaviour {
     public PlayerController player;
-    public int damage = 0;
+    public int damage;
     // Use this for initialization
     void Start () {
         player = (GameObject.Find("Player").GetComponent(typeof(PlayerController)) as PlayerController);
