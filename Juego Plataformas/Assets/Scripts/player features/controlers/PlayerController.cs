@@ -104,7 +104,6 @@ public class PlayerController : MonoBehaviour{
             coinsText.text = persistentManager.instance.coins.ToString();
             keyText.text = persistentManager.instance.keys.ToString();
             persistentManager.instance.cargar = false;
-            comproba = true;
         }
         else
         {

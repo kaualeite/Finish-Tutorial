@@ -42,6 +42,7 @@ public class Canon : MonoBehaviour {
                 
             }
 
+
         }
     void OnCollisionStay2D(Collision2D col)
     {
