@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class explo : MonoBehaviour {
+
     public float pushing = 1;
-	// Use this for initialization
+    public Collider2D attackTrigger;
+
+    // Use this for initialization
     private bool attacking = false;
     private Animator anim;
     private Rigidbody2D rb2d;
@@ -14,6 +17,7 @@ public class explo : MonoBehaviour {
     {
         rb2d = GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
+        attackTrigger.enabled = false;
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -30,7 +34,17 @@ public class explo : MonoBehaviour {
             // Para q vuelva a es
             Invoke("Attack", 0.5f);
         }
-       
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        attackTrigger.enabled = false;
+        //attacking = false;
+    }
+
+    private void BugTrigger()
+    {
+        attackTrigger.enabled = true;
     }
 
     private void Attack()
@@ -44,6 +58,7 @@ public class explo : MonoBehaviour {
     {
         Destroy(GameObject.Find(this.gameObject.name));
     }
+
     public void PlayerPushBomb(Vector2 vector, float push)
     {
         vector.Normalize();
