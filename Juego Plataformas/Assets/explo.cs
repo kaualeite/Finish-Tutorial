@@ -20,10 +20,21 @@ public class explo : MonoBehaviour {
         if (col.gameObject.tag == "Player")
         {
             attacking = true;
-            anim.SetBool("Explode", attacking);
         }
+        anim.SetBool("Explo", attacking);
+        // Para q vuelva a es
+        Invoke("Attack", 0.5f);
+    }
 
+    private void Attack()
+    {
+        attacking = false;
+        anim.SetBool("Explo", attacking);
+    }
 
+    private void Borrar()
+    {
+        Destroy(this);
     }
 }
 
