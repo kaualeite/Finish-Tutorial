@@ -283,6 +283,7 @@ public class PlayerController : MonoBehaviour{
 
     }
 
+
  
     // Deteccion de daño al colisionar con un enemigo
     public void EnemyKnockBack(float enemyPosX/*, int damage*/) {
