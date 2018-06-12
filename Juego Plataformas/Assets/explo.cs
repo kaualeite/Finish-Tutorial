@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class explo : MonoBehaviour {
-    public float pushing = 6;
+    public float pushing = 1;
 	// Use this for initialization
     private bool attacking = false;
     private Animator anim;
@@ -20,16 +20,17 @@ public class explo : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
-            attacking = true;
+            PlayerPushBomb(new Vector2(1, 1), pushing);
         }
        
         if (col.gameObject.tag == "Ground")
         {
             attacking = true;
+            anim.SetBool("Explo", attacking);
+            // Para q vuelva a es
+            Invoke("Attack", 0.5f);
         }
-        anim.SetBool("Explo", attacking);
-        // Para q vuelva a es
-        Invoke("Attack", 0.5f);
+       
     }
 
     private void Attack()
