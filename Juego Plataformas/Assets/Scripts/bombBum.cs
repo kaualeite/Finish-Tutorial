@@ -20,7 +20,7 @@ public class bombBum : MonoBehaviour {
         if (col.gameObject.name == "Player")
         {
             
-            col.SendMessage("EnemyKnockBack", 50);
+            col.SendMessage("EnemyKnockBack", 120);
             col.SendMessage("Hit", damage);
         }
     }

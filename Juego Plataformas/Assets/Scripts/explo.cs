@@ -35,6 +35,14 @@ public class explo : MonoBehaviour {
             Invoke("BugTrigger", 0.1f);
             Invoke("Attack", 0.5f);
         }
+        if (col.gameObject.tag == "miku")
+        {
+            attacking = true;
+            anim.SetBool("Explo", attacking);
+            // Para q vuelva a es
+            Invoke("BugTrigger", 0.1f);
+            Invoke("Attack", 0.5f);
+        }
     }
 
     /*private void OnTriggerExit2D(Collider2D col)
