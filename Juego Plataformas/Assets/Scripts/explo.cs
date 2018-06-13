@@ -32,15 +32,16 @@ public class explo : MonoBehaviour {
             attacking = true;
             anim.SetBool("Explo", attacking);
             // Para q vuelva a es
+            Invoke("BugTrigger", 0.1f);
             Invoke("Attack", 0.5f);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D col)
+    /*private void OnTriggerExit2D(Collider2D col)
     {
         attackTrigger.enabled = false;
         //attacking = false;
-    }
+    }*/
 
     private void BugTrigger()
     {
