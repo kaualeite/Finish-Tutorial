@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour{
         spr = GetComponent<SpriteRenderer>();
 		health = maxhealth;
 
-       /* charge = persistentManager.instance.cargar;
+        charge = persistentManager.instance.cargar;
         if (charge == true)
         {
             read();
@@ -120,17 +120,17 @@ public class PlayerController : MonoBehaviour{
             maxshield = persistentManager.instance.maxshield;
             coins = persistentManager.instance.coins;
             keyNumber = persistentManager.instance.keys;
-        }*/
+        }
     }
 
     // Update is called once per frame
     void Update(){
-      /*  persistentManager.instance.life = health;
+        persistentManager.instance.life = health;
         persistentManager.instance.maaxlife = maxhealth;
         persistentManager.instance.shield = shield;
         persistentManager.instance.maxshield = maxshield;
         persistentManager.instance.coins = coins;
-        persistentManager.instance.keys = keyNumber;*/
+        persistentManager.instance.keys = keyNumber;
         
         
             healthText.text = health.ToString() + "/" + maxhealth.ToString();
